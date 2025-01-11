@@ -147,6 +147,22 @@
     background: transparent;
   }
 
+
+  /*Upcoming Events*/
+  .events{
+    width: 80%;
+    margin: 80px auto;
+  }
+
+  .up_events{
+    width: 450px;
+  }
+
+  .title{
+    text-align: center;
+    font-size: 4vmin;
+    color: #484872;
+  }
   /* Mobile Responsive display */
   @media only screen and (max-width: 850px) {
     .menu_btn{
