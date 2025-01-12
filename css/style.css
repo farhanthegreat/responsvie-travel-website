@@ -1,7 +1,7 @@
 * {
     font-family: "Poppins", serif;
     font-weight: 700;
-    font-style: bold;
+    font-style: normal;
   }
 
   /* Navigation Styles */
@@ -251,6 +251,38 @@
   }
 
   /* Explore the Beauty of Bangladesh Section End */
+
+  /* Destination Tour Section */
+
+  .img_gallery img{
+    max-width: 300px;
+    margin: 10px;
+    
+  }
+
+  .tours{
+    margin: 100px 0;
+    padding: 0 40px;
+  }
+
+  .rows{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .img_col{
+    width: 55%;
+  }
+
+  .content_col{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Destination TOur Section End */
 
 
   /* Mobile Responsive display */
