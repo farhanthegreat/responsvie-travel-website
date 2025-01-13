@@ -257,12 +257,11 @@
   .img_gallery img{
     max-width: 300px;
     margin: 10px;
-    
   }
 
   .tours{
     margin: 100px 0;
-    padding: 0 40px;
+    padding: 50px 40px;
   }
 
   .rows{
@@ -282,8 +281,47 @@
     align-items: center;
   }
 
+  .img_gallery{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .tours .rows{
+    gap: 20px;
+  }
+
+  .content_col h1{
+    font-size: 7vmin;
+    color: #031d00;
+    text-transform: uppercase;
+  }
+
+  .content_col .line{
+    margin-left: -1px;
+  }
+
+  .content_col p{
+    padding: 0;
+    margin: 30px auto;
+  }
+
+  .content_col .cta{
+    margin-left: -100px;
+  }
   /* Destination TOur Section End */
 
+  footer{
+    width: 100%;
+    min-height: 100px;
+    padding: 20px 80px;
+    text-align: center;
+    background: #484872;
+  }
+
+  footer p{
+    color: antiquewhite;
+  }
 
   /* Mobile Responsive display */
   @media only screen and (max-width: 850px) {
